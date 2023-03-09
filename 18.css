@@ -1,0 +1,361 @@
+body{
+margin:0;
+padding:0;
+}
+
+
+.logoin{                                               /*--logo start--*/
+display:flex;                                        
+align-items: center;
+ justify-content: space-between;
+text-decoration: none;
+}
+
+.logo{
+width:95%;
+margin:0 auto;
+}
+
+.rside button {
+ padding: 10px 11px 9px;
+border-radius: 5px;
+border: none;
+ background-color: #f54620;
+color:white;
+}
+
+.rside button:hover{
+background-color:black;
+}
+
+.button1{
+font-family: 'Inter', sans-serif;
+font-size: 13px;
+  font-weight: bold;
+}       
+
+                                              
+
+
+.rside a{
+text-decoration: none;
+margin:20px;
+padding-bottom:10px;
+font-family: 'Inter', sans-serif;
+color:black;
+font-size: 13px;
+  font-weight: 600;
+}
+
+.rside a:hover{
+border-bottom:2px solid blue;
+}
+
+.lside{
+margin:10px;
+}
+                                                          /*--logo end--*/
+
+
+
+.head1{                                                      /*--all heading start--*/
+font-size: 26px;
+  font-weight: bold;
+display:flex;
+ justify-content:center;
+ line-height: 1.79;
+padding-top:20px;
+padding-bottom:10px;
+}
+
+.head2{
+font-size: 22px;
+  font-weight: bold;                                       /*--all heading end--*/
+}                                                       
+
+                                                             /*--gain start--*/
+
+.gain{                                                   
+background-image:url("i1.png");
+height:330px;
+background-repeat: no-repeat;
+    background-size: 100% 100%;
+text-align:center;
+}
+
+
+
+.gain img{
+position:absolute;
+top:19%;
+left:22%;                                                    /*--gain end--*/
+}
+
+                                                               /*--explore start--*/
+.table{
+display:flex;
+text-align:center;
+width:80%;
+margin:0 auto;
+}
+
+.table h2{
+ font-size: 22px;
+  font-weight: bold;
+}
+
+.table1{
+width:33%;
+background-color:#ffdfdf;
+margin:20px;
+border-radius:10px;
+color:#d18e8d;
+line-height: 1.79;
+}
+
+.table2{
+width:33%;
+background-color:#cefbf9;
+margin:20px;
+border-radius:10px;
+color:#6cb4af;
+}
+
+.table3{
+width:33%;
+background-color:#f7ffc0;
+margin:20px;
+border-radius:10px;
+color:#abb07f;
+}
+
+.tablein{
+padding:40px;
+font-family: 'Inter', sans-serif;
+font-size: 14px;
+  font-weight: 500;
+line-height: 1.79;
+}                                                         /*--explore end--*/
+
+.About{                                                   /*--about start--*/
+text-align:center;
+background-color:#fbf9ff;
+}
+
+
+.About p1{
+font-size: 26px;
+  font-weight: bold;
+}
+
+.para2{
+font-size: 18px;
+  font-weight: bold;
+font-family: 'Inter', sans-serif;
+}
+
+.para3{
+ font-size: 14px;
+  font-weight: 600;
+font-family: 'Inter', sans-serif;
+}                                                           /*--about end--*/
+
+.featuresin{                                                        /*--Features start--*/
+display:flex;
+ justify-content: space-between;
+margin:0 auto;
+width:80%;
+}
+
+.features h1{
+font-size: 26px;
+  font-weight: bold;
+}
+
+.img p{
+font-family: 'Inter', sans-serif;
+ font-size: 16px;
+  font-weight: bold;                                       /*--Features end--*/
+}
+
+
+.annopara{                                                     /*--Announcement start--*/
+font-family: 'Inter', sans-serif;
+ font-size: 16px;
+  font-weight: bold;
+}
+
+.annoin{
+display:flex;
+ justify-content: space-between;
+margin:0 auto;
+width:80%;
+}
+
+.anno{
+font-family: 'Inter', sans-serif;
+  font-size: 12px;
+  font-weight: normal;                                       /*--Announcement end--*/
+}
+
+
+
+.OurTeam{                                                         /*--Our Team start--*/
+background-color:#fbf9ff;
+height:390px;
+}
+
+.ourt{                                                         
+display:flex;
+align-items: center;
+ justify-content: space-between;
+margin:0 auto;
+width:80%;
+}
+
+
+.ourleft p{
+ font-size: 14px;
+  font-weight: normal;
+font-family: 'Inter', sans-serif;
+}
+
+
+.ourright{
+padding-right:20px;                                              
+}
+
+.ou{
+ font-size: 21px;
+  font-weight: bold;
+font-family: 'Inter', sans-serif;                                  /*--Our Team end--*/
+}
+
+
+
+
+.ocimg{                                                            /*--Our Clients start--*/
+display:flex;
+align-items: center;
+ justify-content: space-between;
+width:80%;
+margin:0 auto;                                                   
+}
+
+.Our Clients{
+height:390px;
+}                                                                  /*--Our Clients end--*/
+
+
+.Contact Us{                                                      /*--contact us start--*/
+height:450px;
+}
+
+.contacttable1{
+width:45%;
+}
+
+.contacttable2{
+display:flex;
+ justify-content: space-between;
+padding:20px;
+width:55%;
+}
+
+.contacttable2 lable{
+float:left;
+line-height: 0.5px;
+font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.contacttablelab{
+margin:20px;
+
+}
+
+.inp{
+  border-radius: 5px;
+ width:300px;
+ padding: 9px 15px 76px 17px;
+}
+
+.in{
+height: 40px;
+border-radius:5px;
+border:1px solid #a7a7a7;
+width: 300px;
+ padding: 7px 15px 7px 19px;
+}
+
+
+.contacttablemess{
+margin:20px;
+   
+}
+
+.btn{
+display:flex;
+align-items: center;
+}
+
+
+.con{
+width:100%;
+height:570px;
+}
+
+
+.contacttable{
+display:flex;
+align-items: center;
+ justify-content: space-between;
+margin:0 auto;
+width:80%;
+}
+
+.b1{
+background-color:#703edb;
+color:white;
+width: 82px;
+  height: 36px;
+  margin: 30px 12px 0 0;
+  padding: 10px 15px 10px 16px;
+  border-radius: 5px;
+  border: solid 1px #703edb;
+}
+
+
+.b2{
+background-color:white;
+color:#703edb;
+ margin: 30px 12px 0 0;
+ padding: 10px 15px 10px 16px;
+ border-radius: 5px; 
+ border: solid 2px #703edb;
+}
+
+
+.fooder{                                                         /*--fooder start--*/
+ background-color: #2d1a4f;
+text-align:center;
+height:50px;
+color:white;
+}
+
+
+.fooderhead{
+font-family: 'Inter', sans-serif;
+ font-size: 13px;
+  font-weight: normal;
+padding-top:18px;                                                 /*--fooder end--*/
+ }
+
+
+@media only screen and (max-width: 595px) {
+  .imgr {
+    height:200px;
+  }
+}
+
